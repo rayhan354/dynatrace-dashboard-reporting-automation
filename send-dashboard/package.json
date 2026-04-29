@@ -1,0 +1,20 @@
+{
+  "name": "send-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send-hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node send-hello.js",
+    "logout": "node logout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "type": "module"
+}

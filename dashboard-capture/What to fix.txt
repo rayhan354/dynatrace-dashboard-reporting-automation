@@ -1,0 +1,4 @@
+1. Dimension still manual, need to capture based on dashboard area
+1a. Fix left menu still covering dashboard on big captures | Done
+2. Wait time need to be based on until graph loads | Done
+3. Reduce file size | Done
