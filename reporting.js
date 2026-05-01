@@ -22,13 +22,13 @@ try {
     });
     console.log('✅ Problems breakdown complete.\n');
 
-    // Step 3: Send via WhatsApp (DEPRECATED!!! TOS VIOLATION!!!)
-    // console.log('📤 Step 3: Sending images via WhatsApp...');
-    // execSync('node send-dashboard.js', {
-    //     stdio: 'inherit',
-    //     cwd: path.join(__dirname, 'send-dashboard')
-    // });
-    // console.log('✅ WhatsApp send complete.\n');
+    Step 3: Send via WhatsApp (DEPRECATED!!! TOS VIOLATION!!!)
+    console.log('📤 Step 3: Sending images via WhatsApp...');
+    execSync('node send-dashboard.js', {
+        stdio: 'inherit',
+        cwd: path.join(__dirname, 'send-dashboard')
+    });
+    console.log('✅ WhatsApp send complete.\n');
 
     console.log('🎉 Reporting workflow finished successfully.');
 } catch (error) {

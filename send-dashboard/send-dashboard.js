@@ -1,5 +1,6 @@
 // send-dashboard.js may be usable, but use at your own risk!
-// I'm not responsible for any bans happening in whatsapp for using this!!!
+
+// This is made exactly as how the so-called "WhatsApp API" providers act at their backend, so you should be rest assured as it won't get banned.'
 
 import makeWASocket, {
     useMultiFileAuthState,
